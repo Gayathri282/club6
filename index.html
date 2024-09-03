@@ -313,7 +313,23 @@ More About  Us
         }
         
     </style>
-  
+    <style>
+    .button-item{
+        background: black;
+        border-radius: 10px;
+        padding: 10px;
+        width: 50%;
+        position: absolute;
+        top: 80%;
+        z-index: 1000;
+        /* margin: auto; */
+        margin-left: auto;
+        margin-right: auto;
+        left: 40%;
+    }
+    .button-item:hover{
+        background-color: white;
+    }
     </style>
     <link property="stylesheet" rel='stylesheet' id='wp-block-library-css' href='https://www.clubsix.in/wp-includes/css/dist/block-library/style.min.css?ver=6.6.1' type='text/css' media='all' />
     <link property="stylesheet" rel='stylesheet' id='wc-block-vendors-style-css' href='https://www.clubsix.in/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/vendors-style.css?ver=5.1.0' type='text/css' media='all' />
@@ -2058,18 +2074,10 @@ More About  Us
                                                                                             </rs-module>
                                                                                         </rs-module-wrap>
                                                                                         <!-- END REVOLUTION SLIDER -->
-                                                                                        <div class="elementor-element button-different elementor-element-5b967b6 elementor-button-success elementor-align-center animation_type_block sc_fly_static elementor-widget elementor-widget-button" data-id="5b967b6" data-element_type="widget" data-widget_type="button.default">
-                                                                                            <div class="elementor-widget-container">
-                                                                                                <div class="elementor-button-wrapper">
-                                                                                                    <a href="./page.html" target="_blank" class="elementor-button-link elementor-button elementor-size-sm" role="button">
-                                                                                                        <span class="elementor-button-content-wrapper">
-                                                                                                        <span class="elementor-button-icon elementor-align-icon-left">
-                                                                                                <i aria-hidden="true" class="far fa-arrow-alt-circle-right"></i>			</span>
-                                                                                                        <span class="elementor-button-text">View More</span>
-                                                                                                         </span>
-                                                                                                    </a>
-                                                                                                </div>
-                                                                                            </div>
+                                                                                        <div class="button-container">
+                                                                                            <button class="button-item">
+                                                                                                <a href="./page.html" class="button-link">View More</a>
+                                                                                            </button>
                                                                                         </div>
                                                                                          
                                                                                     </div>
